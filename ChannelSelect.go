@@ -15,7 +15,7 @@ func main() {
 	}()
 
 	go func() {
-		time.Sleep(time.Second * 2)
+		time.Sleep(time.Second * 1)
 		c2 <- "two second"
 	}()
 

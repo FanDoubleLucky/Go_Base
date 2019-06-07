@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee644e5-9feb-4788-a79c-882d6b59b6de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ChannelDirection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChannelSelect.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChannelSyn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChannelSynchron.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NonblockChannel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timeout.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/Channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChannelCache.go" beforeDir="false" afterPath="$PROJECT_DIR$/ChannelCache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChannelSelect.go" beforeDir="false" afterPath="$PROJECT_DIR$/ChannelSelect.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +18,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChannelDirection.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChannelSelect.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Timeout.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ChannelSelect.go">
+        <entry file="file://$PROJECT_DIR$/NonblockChannel.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -66,12 +87,13 @@
         <option value="$PROJECT_DIR$/ChannelSyn.go" />
         <option value="$PROJECT_DIR$/ChannelDirection.go" />
         <option value="$PROJECT_DIR$/ChannelSelect.go" />
+        <option value="$PROJECT_DIR$/Timeout.go" />
+        <option value="$PROJECT_DIR$/NonblockChannel.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="650" />
-    <option name="width" value="630" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="638" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -118,19 +140,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ChannelDirection.go">
-    <configuration name="go build ChannelCache.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Base" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ChannelCache.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build NonblockChannel.go">
     <configuration name="go build ChannelDirection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Base" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/ChannelDirection.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ChannelSelect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Base" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ChannelSelect.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build ChannelSyn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -140,45 +162,46 @@
       <filePath value="$PROJECT_DIR$/ChannelSyn.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ChannelSynchron.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build NonblockChannel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Base" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ChannelSynchron.go" />
+      <filePath value="$PROJECT_DIR$/NonblockChannel.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Timeout.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Base" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Channel.go" />
+      <filePath value="$PROJECT_DIR$/Timeout.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build NonblockChannel.go" />
+        <item itemvalue="Go Build.go build Timeout.go" />
+        <item itemvalue="Go Build.go build ChannelSelect.go" />
         <item itemvalue="Go Build.go build ChannelDirection.go" />
         <item itemvalue="Go Build.go build ChannelSyn.go" />
-        <item itemvalue="Go Build.go build ChannelSynchron.go" />
-        <item itemvalue="Go Build.go build ChannelCache.go" />
-        <item itemvalue="Go Build.go build Channel.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="0" width="695" height="800" extended-state="6" />
+    <frame x="0" y="0" width="638" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1653905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18120806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26438355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26438355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,15 +291,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChannelDirection.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/sleep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="155" column="23" lean-forward="true" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChannelSelect.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="262">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timeout.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NonblockChannel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
