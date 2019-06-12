@@ -10,7 +10,7 @@ func main() {
 	go worker(done)
 
 	<-done
-	fmt.Println("All Work Done")
+	fmt.Println("All Works Done")
 }
 
 func worker(done chan bool) {
