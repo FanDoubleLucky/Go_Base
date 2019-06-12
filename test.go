@@ -2,24 +2,18 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
-func main() {
-	ms := make(chan int, 5)
-
-	go func() {
-		for i := 1; i <= 4; i++ {
-			fmt.Println(<-ms)
-		}
-	}()
-
-	var count int = 0
-	for i := 1; i <= 6; i++ {
-		count += 1
-		ms <- i
+func showNumber(num int) {
+	for i := 1; i <= 9000000; i++ {
+		fmt.Println(num)
 	}
+}
 
-	time.Sleep(time.Second)
-	fmt.Println(count)
+func main() {
+	go showNumber(10)
+	//runtime.Gosched()
+	for {
+		fmt.Println("i")
+	}
 }
