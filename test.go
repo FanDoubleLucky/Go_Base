@@ -16,4 +16,5 @@ func main() {
 	for {
 		fmt.Println("i")
 	}
+	fmt.Println("fs")
 }
