@@ -7,7 +7,7 @@ func main(){
 }
 
 
-func myfunc(args ...int){
+func myfunc(args ...int) {
 	for _, arg := range args {
 		fmt.Println(arg)
 	}
